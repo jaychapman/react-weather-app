@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: larger;
+  text-align: center;
+  background-color: black;
+  height: 100vh;
+  color: white;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+}
+
+#content {
+  display: block;
+  width: 300px;
+}
+
+#main-display {
+  display: block;
+}
+
+#temp {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 72px;
+  font-weight: 100;
+}
+
+#weather,
+#city {
+  font-size: 32px;
+}
+
+#five-day {
+  color: white;
+  margin-bottom: 100px;
+  background-color: rgb(44, 44, 44, 0.5);
+  padding: 10px;
+}
+
+#five-day p {
+  text-align: left;
+  padding-left: 25%;
+}
+
+.snow {
+  background-image: url("./img/snow.jpg");
+  color: rgb(39, 39, 39);
+}
+
+.snowIcon {
+  margin: 20px;
+  font-size: 55px;
+  color: white;
+}
+
+.sun {
+  background-image: url("./img/sun.jpg");
+  color: rgb(39, 39, 39);
+}
+
+.sunIcon {
+  margin: 20px;
+  font-size: 55px;
+  color: yellow;
+}
+
+.rain {
+  background-image: url("./img/rain2.jpg");
+  color: white;
+}
+
+.fa-sun {
+  color: yellow;
+}
+
+.fa-cloud-showers-heavy {
+  color: aqua;
+}
+
+.fa-cloud {
+  color: rgb(179, 177, 177);
+}
+
+.fog {
+  background-image: url("./img/fog.jpg");
+  color: rgb(39, 39, 39);
+}
+
+.thunderstorm {
+  background-image: url("./img/thunderstorm.jpg");
+  color: rgb(39, 39, 39);
+}
+
+.clouds {
+  background-image: url("./img/clouds.jpg");
+  color: white;
+}
+
+.start {
+  background-image: url("./img/start2.jpg");
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+#weatherSearch {
+  background-color: white;
+  color: rgb(34, 34, 34);
+  padding: 5px;
+  border: none;
+  border-radius: 5px 0 px 0px 5px;
+}
+
+#weatherBtn {
+  background-color: white;
+  border-radius: 0px 5px 5px 0px;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
