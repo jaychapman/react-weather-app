@@ -2,8 +2,6 @@
 
 See the live site here: https://gentle-tundra-63787.herokuapp.com/
 
-# Age Safe at Home
-
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
 ## Description
