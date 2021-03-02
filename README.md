@@ -1,29 +1,19 @@
-# Create React Express App
+# React Weather App
 
-## About This Boilerplate
+See the live site here: https://gentle-tundra-63787.herokuapp.com/
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+# Age Safe at Home
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
-## Starting the app locally
+## Description
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
+This is a rebuild of one of the earlier projects that I completed. This app uses the [openweathermap api](https://openweathermap.org/api) to get weather for the selected city. It will also return the five day forecast for the city. Originally the app was built using jquery and moment.js. I decided to rebuild using react to improve my skills using hooks and state. I implemented logic to dynamically update the background image depending on the weather in the selected city. I also included font awesome icons that are dynamically rendered for each of the five day weather forecasts. These icons will reflect the forecast for each day using either clouds, sun or rain.
 
-```
-npm install
-```
+In the future I plan on adding MongoDB and authorization to allow users to save searches for future use.
 
-This should install node modules within the server and the client folder.
+## Questions
 
-After both installations complete, run the following command in your terminal:
+If you have any questions about this project feel free to email me at jaychap77@yahoo.com.
 
-```
-npm start
-```
-
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
-
-## Deployment (Heroku)
-
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
+For more information, or to check out my other projects visit my github page: [jaychapman](https://github.com/jaychapman).
