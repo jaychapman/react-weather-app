@@ -6,9 +6,9 @@ See the live site here: https://gentle-tundra-63787.herokuapp.com/
 
 ## Description
 
-This is a rebuild of one of the earlier projects that I completed. This app uses the [openweathermap api](https://openweathermap.org/api) to get weather for the selected city. It will also return the five day forecast for the city. Originally the app was built using jquery and moment.js. I decided to rebuild using react to improve my skills using hooks and state. I implemented logic to dynamically update the background image depending on the weather in the selected city. I also included font awesome icons that are dynamically rendered for each of the five day weather forecasts. These icons will reflect the forecast for each day using either clouds, sun or rain.
+This is a rebuild of one of the earlier projects that I completed. This app uses the [openweathermap api](https://openweathermap.org/api) to get weather for the selected city. It will also return the five day forecast for the city. Originally the app was built using jquery and moment.js and Bootstrap. I decided to rebuild using react to improve my skills using hooks and state. I implemented logic to dynamically update the background image depending on the weather in the selected city. I also included font awesome icons that are dynamically rendered for each of the five day weather forecasts. These icons will reflect the forecast for each day using either clouds, sun or rain. The CSS is 100% custom without using any framework.
 
-In the future I plan on adding MongoDB and authorization to allow users to save searches for future use.
+This app is hosted on Heroku and I built the server using Node.js and Express. In the future I plan on adding MongoDB and authorization to allow users to save searches for future use.
 
 ## Questions
 

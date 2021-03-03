@@ -6,7 +6,6 @@ body {
   font-size: 16px;
   text-align: center;
   background-color: black;
-  height: 100vh;
   color: white;
 }
 
@@ -40,16 +39,17 @@ select {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 72px;
   font-weight: 100;
+  margin: 1.5rem;
 }
 
 #weather,
 #city {
   font-size: 32px;
+  margin: 1.5rem;
 }
 
 #five-day {
   color: white;
-  margin-bottom: 100px;
   background-color: rgb(44, 44, 44, 0.5);
   padding: 10px;
 }
@@ -131,6 +131,7 @@ select {
   padding: 5px;
   border: none;
   border-radius: 5px 0 px 0px 5px;
+  outline: none;
 }
 
 #weatherBtn {
@@ -140,8 +141,10 @@ select {
   border: none;
   cursor: pointer;
   padding: 5px;
+  outline: none;
 }
 
 .spacer {
-  height: 75px;
+  height: 125px;
+  position: fixed bottom;
 }
