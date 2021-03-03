@@ -166,6 +166,7 @@ const GetWeather = (props) => {
                     />
                 </div>
             </div>
+            <div className="spacer"></div>
         </div>
     )
 }
