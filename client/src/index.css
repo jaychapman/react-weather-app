@@ -7,6 +7,11 @@ body {
   text-align: center;
   background-color: black;
   color: white;
+  overflow: scroll;
+}
+
+#min-height {
+  display: none;
 }
 
 input,
@@ -147,4 +152,32 @@ select {
 .spacer {
   height: 125px;
   position: fixed bottom;
+}
+
+@media only screen and (max-height: 550px) {
+  .container {
+    display: none;
+  }
+
+  #min-height {
+    display: grid;
+    font-size: 24px;
+    color: black;
+    background-color: white;
+    height: 100vh;
+    align-content: center;
+    align-items: center;
+    overflow: scroll;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  #temp {
+    font-size: 36px;
+  }
+
+  #weather,
+  #city {
+    font-size: 24px;
+  }
 }

@@ -126,12 +126,16 @@ const GetWeather = (props) => {
 
             getWeather();
 
+        
             setCityInput('');
+
+            
 
 
     }
 
     return(
+        <>
         <div id="page" className="container start">
             <div id="content">
                 <div id="main-display">
@@ -168,6 +172,10 @@ const GetWeather = (props) => {
             </div>
             <div className="spacer"></div>
         </div>
+            <div id="min-height">
+                <p>please rotate screen to search weather</p>
+            </div>
+        </>
     )
 }
     
