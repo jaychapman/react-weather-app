@@ -8,6 +8,7 @@ const GetWeather = (props) => {
 
     const date = new Date();
     const dateDisplay = date.toLocaleDateString();
+   
 
     const [weather, setWeather] = useState(
         { 

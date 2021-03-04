@@ -64,14 +64,32 @@ const FiveDay = ({ temp1, temp2, temp3, temp4, temp5, condition1, condition2, co
         }
     }
 
+
+        const today = new Date();
+      
+        let day1 = today.getDay()+1;
+        let day2 = today.getDay()+2;
+        let day3 = today.getDay()+3;
+        let day4 = today.getDay()+4;
+        let day5 = today.getDay()+5;
+
+        let daylist = ["Sun","Mon","Tue","Wed ","Thu","Fri","Sat","Sun","Mon","Tue","Wed ","Thu","Fri","Sat"];
+    
+        let dayOne = daylist[day1];
+        let dayTwo = daylist[day2];
+        let dayThree = daylist[day3];
+        let dayFour = daylist[day4];
+        let dayFive = daylist[day5];
+
+
     return(
         <div id="five-day">
             <h2>Five Day</h2>
-            <p>Mon: &nbsp; {icon1()} &nbsp; {temp1}&deg;F</p>
-            <p>Tue: &nbsp; {icon2()} &nbsp; {temp2}&deg;F</p>
-            <p>Wed: &nbsp; {icon3()} &nbsp; {temp3}&deg;F</p>
-            <p>Thur: &nbsp; {icon4()} &nbsp; {temp4}&deg;F</p>
-            <p>Fri: &nbsp; {icon5()} &nbsp; {temp5}&deg;F</p>
+            <p> {dayOne} &nbsp; {icon1()} &nbsp; {temp1}&deg;F</p>
+            <p> {dayTwo} &nbsp; {icon2()} &nbsp; {temp2}&deg;F</p>
+            <p> {dayThree} &nbsp; {icon3()} &nbsp; {temp3}&deg;F</p>
+            <p> {dayFour} &nbsp; {icon4()} &nbsp; {temp4}&deg;F</p>
+            <p> {dayFive} &nbsp; {icon5()} &nbsp; {temp5}&deg;F</p>
         </div>
     )
 }
