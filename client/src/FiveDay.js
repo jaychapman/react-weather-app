@@ -65,21 +65,21 @@ const FiveDay = ({ temp1, temp2, temp3, temp4, temp5, condition1, condition2, co
     }
 
 
-        const today = new Date();
-      
-        let day1 = today.getDay()+1;
-        let day2 = today.getDay()+2;
-        let day3 = today.getDay()+3;
-        let day4 = today.getDay()+4;
-        let day5 = today.getDay()+5;
-
-        let daylist = ["Sun","Mon","Tue","Wed ","Thu","Fri","Sat","Sun","Mon","Tue","Wed ","Thu","Fri","Sat"];
+    const today = new Date();
     
-        let dayOne = daylist[day1];
-        let dayTwo = daylist[day2];
-        let dayThree = daylist[day3];
-        let dayFour = daylist[day4];
-        let dayFive = daylist[day5];
+    let day1 = today.getDay()+1;
+    let day2 = today.getDay()+2;
+    let day3 = today.getDay()+3;
+    let day4 = today.getDay()+4;
+    let day5 = today.getDay()+5;
+
+    let daylist = ["Sun","Mon","Tue","Wed ","Thu","Fri","Sat","Sun","Mon","Tue","Wed ","Thu","Fri","Sat"];
+
+    let dayOne = daylist[day1];
+    let dayTwo = daylist[day2];
+    let dayThree = daylist[day3];
+    let dayFour = daylist[day4];
+    let dayFive = daylist[day5];
 
 
     return(
