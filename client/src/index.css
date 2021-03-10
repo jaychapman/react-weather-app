@@ -7,7 +7,7 @@ body {
   text-align: center;
   background-color: black;
   color: white;
-  overflow: scroll;
+  /* overflow: scroll; */
 }
 
 #min-height {
@@ -29,7 +29,7 @@ select {
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
-  overflow: scroll;
+  /* overflow: scroll; */
 }
 
 #content {
